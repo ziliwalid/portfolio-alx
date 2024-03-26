@@ -1,0 +1,16 @@
+.nav-bar{
+    background: black;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+}
+.logo {
+    font-size: 100%; // Adjust the font size as needed
+    text-align: center; // Center the text within the logo container
+    color: white; // Text color
+    display: block;
+    padding: 8px 0;
+}
