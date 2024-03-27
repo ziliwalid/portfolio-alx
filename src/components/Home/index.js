@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import ComputersCanvas from '../3DModel'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
+  /*need to parse on the array to animate every letter also ignores the empty fields*/
   const nameArray = ['','W', 'a', 'l', 'i', 'd']
   const jobArray = [
     'w',
@@ -58,6 +60,7 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
+        <ComputersCanvas />
       </div>
 
       <Loader type="pacman" />
