@@ -11,11 +11,18 @@ const Home = () => {
   /*need to parse on the array to animate every letter also ignores the empty fields*/
   const nameArray = ['','W', 'a', 'l', 'i', 'd']
   const jobArray = [
-    'w',
-    'e',
-    'b',
+    'F',
+    'u',
+    'l',
+    'l',
+    '',
+    'S',
+    't',
+    'a',
+    'c',
+    'k',
     ' ',
-    'd',
+    'D',
     'e',
     'v',
     'e',

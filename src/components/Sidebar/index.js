@@ -9,8 +9,6 @@ const Layout = () => {
         <div className='nav-bar'>
             {/* Logo */}
             <div className="logo">
-                <span className="logo-line">W</span>
-                <br />
                 <span className="logo-line">Walid</span>
             </div>
             {/* Nav content */}
