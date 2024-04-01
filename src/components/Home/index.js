@@ -35,9 +35,12 @@ const Home = () => {
   ]
 
   useEffect(() => {
-    return setTimeout(() => {
+    const timeoutId = setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 4000)
+
+    // Cleanup function to clear the timeout
+    return () => clearTimeout(timeoutId);
   }, [])
 
   return (
@@ -64,7 +67,7 @@ const Home = () => {
           </h1>
           <h2>Front End Developer / ALX Student / Intern</h2>
           <Link to="/contact" className="flat-button">
-            CONTACT ME
+            HIRE ME
           </Link>
         </div>
         <ComputersCanvas />
